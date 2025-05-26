@@ -10,7 +10,7 @@ import google.generativeai as genai
 
 # --- Configuration and Setup ---
 try:
-    GOOGLE_API_KEY = "AIzaSyCfLE97x4S3KzMOYQ8MLnKZzrPaRGfxNhE"
+    GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
     os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
     genai.configure(api_key=GOOGLE_API_KEY)
 except KeyError:
