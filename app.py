@@ -17,7 +17,7 @@ except KeyError:
     st.error("Google API Key not found. Please set it in your Streamlit secrets.")
     st.stop()
 
-st.set_page_config(page_title="Ask your PDF")
+st.set_page_config(page_title="DocQuery AI | Ask your PDF")
 st.header("Ask questions about your PDF 📚")
 
 # --- Session State Initialization ---
