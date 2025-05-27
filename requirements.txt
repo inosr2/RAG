@@ -6,4 +6,9 @@ langchain-google-genai
 langchain-text-splitters
 faiss-cpu
 tenacity
-google-generativeai # Added explicitly for genai.configure()
+google-generativeai
+deep-translator
+langdetect
+googletrans==4.0.0-rc1
+pdfplumber
+pytesseract
